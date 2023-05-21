@@ -12,7 +12,7 @@
 
     <groupId>io.github.GEdrien</groupId>
     <artifactId>property-catalog</artifactId>
-    <version>1.0</version>
+    <version>1.0.</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
