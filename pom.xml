@@ -10,7 +10,7 @@
         <version>2.6.3</version>
     </parent>
 
-    <groupId>progkor.catalog</groupId>
+    <groupId>io.github.GEdrien</groupId>
     <artifactId>property-catalog</artifactId>
     <version>1.0</version>
 
