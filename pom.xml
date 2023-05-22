@@ -10,11 +10,12 @@
         <version>2.6.3</version>
     </parent>
 
-    <groupId>progkor.catalog.propertycatalog</groupId>
+    <groupId>progkor.catalog</groupId>
     <artifactId>property-catalog</artifactId>
     <version>1.0.</version>
 
     <properties>
+        <java.version>17</java.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
@@ -27,6 +28,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
